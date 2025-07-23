@@ -40,7 +40,7 @@
 }
 
 .header.scrolled {
-    background-colo:#b8891730; 
+    background-color:#b8891730; 
 
     box-shadow: 0 5px 20px rgb(0 0 0);
 }
@@ -562,7 +562,8 @@ body {
     position: relative;
 }
 
-.image-wrapper{
+.image-wrapper2{
+    height: 499px;
     border-radius: 51px;
     overflow: hidden;
     position: relative;
@@ -849,8 +850,8 @@ body {
     padding: 2rem;
 }
 
-.image-wrapper{
-    height: 500px;
+.image-wrapper1{
+    height: 449px;
     position: relative;
     border-radius: 51px;
     overflow: hidden;
