@@ -47,14 +47,14 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: black;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  background-color: #b8891730;
+  box-shadow: var(--larna-pearl-gold);
   transition: all 0.3s ease;
 }
 
 .header.scrolled {
-  background-color: rgba(0, 100, 0, 0.514);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #b8891799;
+  box-shadow: black;
 }
 
 .about-hero {
@@ -72,8 +72,8 @@ body {
 
 /* Header */
 .about-hero-header {
-  background: linear-gradient(135deg, var(--primary) 0%, #004d29 100%);
-  color: white;
+  background: #b889179c;
+  color: black;
   /* width: 100%; */
   height: 70%;
   /* padding: 1.5rem; */
