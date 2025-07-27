@@ -1202,7 +1202,7 @@ body {
     background-color: var(--off-white);
     border-radius: 10px;
     padding: 2.5rem;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 20px rgb(0, 0, 0);
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1212,18 +1212,18 @@ body {
 
 .vision-card {
     grid-column: 1;
-    border-top: 5px solid var(--primary-green);
+    border-top: 5px solid var(--larna-pearl-black);
 }
 
 .mission-card {
     grid-column: 2;
-    border-top: 5px solid var(--dark-green);
+    border-top: 5px solid var(--larna-pearl-black);
 }
 
 .vision-card:hover,
 .mission-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 100, 0, 0.1);
+    box-shadow: 0 15px 30px var(--larna-pearl-black);
 }
 
 .card-icon {
@@ -1572,7 +1572,7 @@ body {
     background-color: var(--white);
     padding: 2.5rem;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgb(0 0 0);
 }
 
 .info-item {
@@ -1652,7 +1652,7 @@ address {
     background-color: var(--white);
     padding: 2.5rem;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 15px 30px var(--larna-pearl-black);
 }
 
 .form-header {
@@ -1692,7 +1692,7 @@ address {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: var(--primary-green);
+    border-color: 0 15px 30px var(--larna-pearl-black);
     box-shadow: 0 0 0 2px rgba(0, 100, 0, 0.1);
 }
 
