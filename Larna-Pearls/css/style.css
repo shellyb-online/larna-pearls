@@ -1212,12 +1212,12 @@ body {
 
 .vision-card {
     grid-column: 1;
-    border-top: 5px solid var(--larna-pearl-black);
+    /* border-top: 5px solid var(--larna-pearl-black); */
 }
 
 .mission-card {
     grid-column: 2;
-    border-top: 5px solid var(--larna-pearl-black);
+    /* border-top: 5px solid var(--larna-pearl-black); */
 }
 
 .vision-card:hover,

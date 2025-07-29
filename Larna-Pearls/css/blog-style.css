@@ -199,8 +199,8 @@ a:hover {
 }
 
 .category {
-  background-color: rgba(92, 184, 92, 0.2);
-  color: var(--primary-color);
+  background-color: #b88917ab;
+  color: black;
   padding: 3px 10px;
   border-radius: 15px;
   font-weight: 600;
@@ -238,7 +238,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   background-color: white;
-  color: var(--primary-color);
+  color: black;
   padding: 10px 20px;
   border-radius: 30px;
   font-weight: 600;
@@ -343,16 +343,16 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: white;
-  color: var(--text-color);
+  background-color: #b88917ab;
+  color: black;
   font-weight: 600;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: var(--transition);
 }
 
 .page-btn.active {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: #b88917ab;
+  color: #000000;
 }
 
 .page-btn.next {
@@ -362,7 +362,7 @@ a:hover {
 }
 
 .page-btn:hover:not(.active) {
-  background-color: #f0f0f0;
+  background-color: #b88917;
 }
 
 /* Sidebar Styles */
@@ -408,7 +408,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
-  color: var(--text-color);
+  color: black;
 }
 
 .categories a:hover {
@@ -416,7 +416,7 @@ a:hover {
 }
 
 .categories span {
-  background-color: #f0f0f0;
+  background-color: black;
   padding: 2px 8px;
   border-radius: 10px;
   font-size: 0.8rem;
@@ -510,13 +510,13 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: white;
+  background-color: #B88917;
+  color: rgb(0, 0, 0);
   transition: var(--transition);
 }
 
 .social-links a:hover {
-  background-color: var(--accent-color);
+  background-color: #B88917;
   transform: translateY(-3px);
 }
 
