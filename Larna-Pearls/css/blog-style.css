@@ -89,7 +89,7 @@ a:hover {
 }
 
 .search-bar button {
-  background-color: var(--secondary-color);
+  background-color: black;
   color: white;
   border: none;
   padding: 0 20px;
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .search-bar button:hover {
-  background-color: #003d1d;
+  background-color: rgba(255, 192, 203, 0.37);
 }
 
 /* .header-wave {
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .read-more-btn:hover {
-  background-color: red);
+  background-color: var(--light-color);
   transform: translateX(8px) scale(1.05);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.534);
 }
@@ -503,31 +503,23 @@ a:hover {
 .social-links {
   display: flex;
   gap: 15px;
-  margin-top: 2rem;
+  margin-top: auto;
 }
 
 .social-links a {
-   width: 40px;
-    height: 40px;
-    background-color: #B88917;
-    color: var(--larna-pearl-black);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    transition: all 0.3s ease;
-  /* display: flex;
+  display: flex;
   display: inline-block;
   align-items: center;
   justify-content: center;
   width: 40px;
+  font: size 1.2em; ;
   height: 40px;
   border-radius: 50%;
   background-color: #b88817;
   color: rgb(0, 0, 0);
-  transition:  background-color 0.3s ease, transform 0.3s ease;; */
-  /* transition: var(--transition); */
+  transition:  background-color 0.3s ease, transform 0.3s ease; 
+  margin: 1.5rem auto 0 auto; 
+  
 }
 
 .social-links a:hover {
