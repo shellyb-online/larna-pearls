@@ -251,9 +251,9 @@ a:hover {
 }
 
 .read-more-btn:hover {
-  background-color: var(--light-color);
+  background-color: red);
   transform: translateX(8px) scale(1.05);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.534);
 }
 
 /* Articles Grid */
@@ -503,22 +503,36 @@ a:hover {
 .social-links {
   display: flex;
   gap: 15px;
+  margin-top: 2rem;
 }
 
 .social-links a {
-  display: flex;
+   width: 40px;
+    height: 40px;
+    background-color: #B88917;
+    color: var(--larna-pearl-black);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  /* display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #B88917;
+  background-color: #b88817;
   color: rgb(0, 0, 0);
-  transition: var(--transition);
+  transition:  background-color 0.3s ease, transform 0.3s ease;; */
+  /* transition: var(--transition); */
 }
 
 .social-links a:hover {
-  background-color: #B88917;
+  background-color: #b88817;
+  color: var(--larna-pearl-black);
   transform: translateY(-3px);
 }
 
