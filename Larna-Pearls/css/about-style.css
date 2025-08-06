@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -424,4 +424,4 @@ body {
   .products-grid {
     grid-template-columns: 1fr;
   }
-}
+} */
